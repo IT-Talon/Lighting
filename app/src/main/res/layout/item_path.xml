@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/transparent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="2dp"
+        android:layout_height="14dp"
+        android:background="#EFAE25"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="默认根目录"
+        android:textColor="@color/path_text_color"
+        android:textSize="13sp"/>
+
+</LinearLayout>

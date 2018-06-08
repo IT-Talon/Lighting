@@ -1,0 +1,44 @@
+输入密钥库口令: trust123
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: lighting
+创建日期: 2018-6-4
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: C=86
+发布者: C=86
+序列号: 7d62167e
+有效期为 Mon Jun 04 10:08:21 CST 2018 至 Fri May 29 10:08:21 CST 2043
+证书指纹:
+         MD5:  FA:94:00:B6:50:CB:A1:1A:0A:15:35:DE:1D:DF:29:B8
+         SHA1: FE:D3:E9:9E:80:A8:48:28:55:0A:79:10:B1:B1:EB:17:9D:35:81:1B
+         SHA256: 25:5D:A0:A6:63:93:9E:CD:E2:1D:AB:C1:B0:16:B2:36:53:58:86:5A:D4:1F:D0:04:AD:35:4E:78:D3:6C:33:65
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 4B C3 C3 CA 68 63 35 59   A9 AF CF C9 35 76 2D 64  K...hc5Y....5v-d
+0010: F2 9A 35 3C                                        ..5<
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
+
+Warning:
+JKS 密钥库使用专用格式。建议使用 "keytool -importkeystore -srckeystore lightingk
+eystore.jks -destkeystore lightingkeystore.jks -deststoretype pkcs12" 迁移到行业
+标准格式 PKCS12。

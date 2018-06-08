@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolbar">
+        <attr name="barColor" format="color"/>
+        <attr name="barTitleText" format="string"/>
+        <attr name="barTitleBold" format="boolean"/>
+        <attr name="barTitleTextSize" format="dimension"/>
+        <attr name="barTitleTextColor" format="color"/>
+        <attr name="barLeftImg" format="reference"/>
+        <attr name="barLeftImgMarginLeft" format="dimension"/>
+        <attr name="barRightImg" format="reference"/>
+        <attr name="barRightButtonText" format="string"/>
+        <attr name="barRightButtonTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="TouchableImageButton">
+        <attr name="overlay_color" format="color"/>
+    </declare-styleable>
+
+</resources>

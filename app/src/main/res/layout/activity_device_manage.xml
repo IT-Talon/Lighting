@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:orientation="vertical"
+    tools:context=".ui.devicemanagement.DeviceManageActivity">
+
+    <com.trust.lighting.view.CustomToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:barTitleText="@string/device_manage">
+
+    </com.trust.lighting.view.CustomToolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_path"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@color/transparent"
+        android:paddingLeft="10dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <FrameLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_bg">
+
+    </FrameLayout>
+
+</LinearLayout>
